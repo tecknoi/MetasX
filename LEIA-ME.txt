@@ -1,5 +1,13 @@
-100K — projeto inicial
+100K — PWA atualizado
 
-O index.html é um protótipo funcional: meta de R$ 100.000 em 2027, depósito com data/observação, progresso automático, calendário completo, conquistas e exportação CSV. Os dados ficam no armazenamento local do navegador.
+Envie/substitua na raiz do repositório https://github.com/tecknoi/MetasX estes cinco arquivos:
+- index.html
+- manifest.json
+- service-worker.js
+- icon-192.png
+- icon-512.png
 
-Para gerar um APK Android: abra o Android Studio, crie um projeto Android com uma Activity WebView e coloque index.html em app/src/main/assets/index.html; habilite JavaScript e DOM storage na WebView. Depois use Build > Build APK(s). Este ZIP contém o protótipo web, não um APK compilado.
+Depois faça Commit changes e aguarde o GitHub Pages atualizar:
+https://tecknoi.github.io/MetasX/
+
+O site usa localStorage para guardar os depósitos neste navegador/dispositivo. Este pacote prepara o PWA, mas não é um APK compilado; ainda é necessário validar/empacotar no PWABuilder.
